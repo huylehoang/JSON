@@ -1,19 +1,64 @@
 {
-    "dataTitle": "JSON Tutorial!",
-    "swiftVersion": 2.1,
-    
-    "users": [
-              {
-              "name": "John",
-              "age": 25
-              },
-              {
-              "name": "Mark",
-              "age": 29
-              },
-              {
-              "name": "Sarah",
-              "age": 22
-              }
-              ]
+    "categories":[
+                  {
+                  "name" : "Horrors",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/horrorsfeed"
+                  },
+                  {
+                  "name" : "All Hollywood Series",
+                  "type" : "series",
+                  "feed" : "http://demo6492027.mockable.io/seriesfeed"
+                  },
+                  {
+                  "name" : "Ramantic movies",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/errorsfeed"
+                  },
+                  {
+                  "name" : "Actions",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/actionsfeed"
+                  },
+                  {
+                  "name" : "Horrors",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/horrorsfeed"
+                  },
+                  {
+                  "name" : "All Hollywood Series",
+                  "type" : "series",
+                  "feed" : "http://demo6492027.mockable.io/seriesfeed"
+                  },
+                  {
+                  "name" : "Ramantic movies",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/errorsfeed"
+                  },
+                  {
+                  "name" : "Actions",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/actionsfeed"
+                  },
+                  {
+                  "name" : "Horrors",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/horrorsfeed"
+                  },
+                  {
+                  "name" : "All Hollywood Series",
+                  "type" : "series",
+                  "feed" : "http://demo6492027.mockable.io/seriesfeed"
+                  },
+                  {
+                  "name" : "Ramantic movies",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/errorsfeed"
+                  },
+                  {
+                  "name" : "Actions",
+                  "type" : "movies",
+                  "feed" : "http://demo6492027.mockable.io/actionsfeed"
+                  }
+                  ]
 }

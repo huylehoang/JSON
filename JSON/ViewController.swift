@@ -18,34 +18,14 @@ class ViewController: UIViewController {
         let path = Bundle.main.path(forResource: "jsonFile", ofType: "json") as String!
         let resourceData = NSData(contentsOfFile: path!) as NSData!
         if let responeDictionary = try! JSONSerialization.jsonObject(with: resourceData as! Data, options: JSONSerialization.ReadingOptions(rawValue: 0)) as? [String: AnyObject] {
-            var allDictionaries:[[String:AnyObject]] = []
-            for (key,value)in responeDictionary {
-                let dictionary = [key:value]
-                allDictionaries.append(dictionary)
-            }
-            allDictionaries.remove(at: 2)
             
-            for item in allDictionaries {
-                for (key,value) in item {
-                    print("\(key) - \(value)")
-                }
-            }
-            
-            if let users = responeDictionary["users"] as? [[String:Any]] {
-                for user in users {
-//                    if let name = user["name"] as? String, let age = user["age"] as? Int {
-//                        array[name] = age
-//                    }
-                    for (key,value) in user {
-                        print("\(key) - \(value)")
-                    }
+            if let categories = responeDictionary["categories"] as? [[String:Any]] {
+                for category in categories {
+                    print("type - \(category["type"]!)")
+                    print("feed - \(category["feed"]!)")
                 }
             }
         }
-//        for (key,value) in array {
-//            print("\(key) - \(value)")
-//        }
-
     }
 
     override func didReceiveMemoryWarning() {
